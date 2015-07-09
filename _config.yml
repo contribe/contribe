@@ -1,0 +1,62 @@
+url: https://localhost:4000
+baseurl: /contribe/
+
+# Site settings
+title: Contribe
+email: brian.ranney@contribe.se
+description: "Contribe - Vi förenklar framtiden"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 3397b9
+  secondary: c39
+  secondary-dark: 333
+
+# Team names, titles and social links
+people:
+- name: Roger Gordin
+  pic: roger
+  position: VD
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Marcus Nilsson
+  pic: marcus
+  position: Konsultchef
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Carin Håkansson
+  pic: carin
+  position: Konsultchef
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/contribe
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
