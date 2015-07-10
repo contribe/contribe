@@ -436,6 +436,32 @@ section h3.section-subheading {
     z-index: 2;
 }
 
+a.portfolio-link {
+    text-decoration: none;
+}
+
+#blog * {
+    z-index: 2;
+}
+
+#blog .blog-data a h4 {
+    text-transform: none;
+    pa
+}
+
+#blog .blog-data a {
+    text-decoration: none;
+}
+
+.blog-subheading {
+    margin-bottom: 25px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
@@ -906,4 +932,10 @@ body {
 html,
 body {
     height: 100%;
+}
+
+/* end carousel styles */
+
+.clientLogo {
+    height: 80px;
 }

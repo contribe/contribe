@@ -1,1 +1,24 @@
-blog
+<!-- Blog Section -->
+    <section id="blog" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Blogg</h2>
+                    <h3 class="text-muted blog-subheading">​Senaste nyheter om Contribe</h3>
+                </div>
+            </div>
+            <div class="row">
+            {% for post in site.categories.blog limit: 3 %}
+                <div class="col-md-4 col-md-offset-4 col-sm-6 blog-data">
+                    <div>
+                        <a href="#portfolioModal{{ post.modal-id }}" data-toggle="modal"><h4>{{ post.title }}</h4></a>
+                        <p class="text-muted"><i class="fa fa-calendar-o fa-fw"></i>&nbsp; {{ post.date | date: "%d-%m-%Y" }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <a href="#allPosts" data-toggle="modal">Se alla</a>
+            </div>
+        </div>
+    </section>

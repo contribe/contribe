@@ -18,44 +18,33 @@ people:
   pic: roger
   position: VD
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - title: linkedin
+      url: https://www.linkedin.com/pub/roger-gordin/2/a21/a83
+    - title: envelope-o
+      url: mailto:roger.gordin@contribe.se
 
 - name: Marcus Nilsson
   pic: marcus
   position: Konsultchef
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: linkedin
-      url: #
+      url: https://se.linkedin.com/pub/marcus-nilsson/61/70b/561
+    - title: envelope-o
+      url: mailto:marcus.nilsson@contribe.se
 
 - name: Carin Håkansson
   pic: carin
   position: Konsultchef
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+    - title: linkedin
+      url: https://se.linkedin.com/pub/carin-h%C3%A5kansson/9/b35/353
+    - title: envelope-o
+      url: mailto:carin.hakansson@contribe.se
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
     url: https://www.facebook.com/contribe
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown
