@@ -1,6 +1,7 @@
 ---
-published: false
+published: true
 ---
+
 
 Tredje upplagan av Internet Camp har precis avslutats och går från klarhet till klarhet för varje år. I år har campet även uppmärksammats en del i media och genom regionens egen YouTubekändis TheSwedishLad, något som vi hoppas ska hjälpa fler att få upp ögonen för det viktiga arbete som vi bedriver.Vill du vara med och ta ansvar för att våra barn och ungdomar lär sig mer om bland annat vett och etikett, fallgropar och källkritik på internet?
 
@@ -8,5 +9,4 @@ Tredje upplagan av Internet Camp har precis avslutats och går från klarhet til
 
 – Vi ger barnen verktyg för att undvika faror och fallgropar på Internet och gör dem uppmärksamma på att allt du gör syns och förevigas, säger ledaren Mikael Engvall. Internet Camp tar upp lösenord, upphovsrätt, källkritik samt rättigheter och skyldigheter på nätet, liksom skillnaden i att vara personlig och privat i sina texter och inlägg.
 
-Nytt för i år var ett besök av en YouTubekändis i form av Martin Arvebro, mer känd som [TheSwedishLad](https://www.youtube.com/channel/UCMF7lzH6UU3HEhxToedhXxA) som även spelade in videos med kidsen både i Växjö och i Karlskrona. 
-
+Nytt för i år var ett besök av en YouTubekändis i form av Martin Arvebro, mer känd som [TheSwedishLad](https://www.youtube.com/channel/UCMF7lzH6UU3HEhxToedhXxA) som även spelade in videos med kidsen både i Växjö och i Karlskrona.
