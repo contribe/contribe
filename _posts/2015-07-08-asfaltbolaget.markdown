@@ -1,5 +1,5 @@
 ---
-title: Laga Gatan
+title: Lagagatan
 subtitle: Webbutveckling
 layout: default
 modal-id: 2

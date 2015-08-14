@@ -1,0 +1,9 @@
+---
+title: Välkommen Salem Sallnäs!
+layout: default
+modal-id: 7
+date: 2015-08-04
+category: blog
+description: <p class="text-left">Vi hälsar en ny medarbetare till Växjökontoret välkommen, Salem Sallnäs, som är systemutvecklare och börjar den 1 september!</p>
+
+---
