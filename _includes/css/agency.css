@@ -254,6 +254,10 @@ fieldset[disabled] .btn-xl.active {
     transition: all .3s;
 }
 
+.postHeading {
+    font-size: 1.5em!important;
+}
+
 @media(min-width:1200px) {
     .navbar-default {
         padding: 25px 0;
@@ -366,9 +370,9 @@ header .intro-text .intro-heading {
     margin-bottom: 20px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 30px;
 }
 
 @media(min-width:768px) {
@@ -394,6 +398,7 @@ header .intro-text .intro-heading {
         font-weight: 700;
         line-height: 75px;
     }
+
 }
 
 section {
