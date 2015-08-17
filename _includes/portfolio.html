@@ -30,63 +30,14 @@
                 <h3 class="section-heading">Urval av kunder</h3>
             </div>
         </div>
-        <div class="row" style="margin-top: 75px;">
+        <div class="row">
+        {% for logo in site.logos %}
             <div class="col-md-3 col-sm-12">
-                <img src="img/logos/kalmar.png" class="img-responsive img-centered clientLogo" alt="kalmar logo">
+                <img src="img/logos/{{ logo.url }}" class="img-responsive img-centered clientLogo" alt="{{ logo.alt }}">
             </div>
-            <div class="col-md-3 col-sm-12">
-                <img src="img/logos/volvo.png" class="img-responsive img-centered clientLogo" alt="volvo logo">
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <img src="img/logos/playngo.png" class="img-responsive img-centered clientLogo" alt="play n go logo">
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <img src="img/logos/hm.png" class="img-responsive img-centered clientLogo" alt="h and m logo">
-            </div>
+        {% endfor %}
         </div>
-        <div class="row" style="margin-top: 75px;">
-            <div class="col-md-3 col-sm-12">
-                <img src="img/logos/telenor.png" class="img-responsive img-centered clientLogo" alt="telenor logo">
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <img src="img/logos/fortnox.png" class="img-responsive img-centered clientLogo" alt="fortnox logo">
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <img src="img/logos/electra.png" class="img-responsive img-centered clientLogo" alt="electra logo">
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <img src="img/logos/ericsson.png" class="img-responsive img-centered clientLogo" alt="ericsson logo">
-            </div>
-        </div>
-        <div class="row" style="margin-top: 75px;">
-            <div class="col-md-3 col-sm-12">
-                <img src="img/logos/idata.png" class="img-responsive img-centered clientLogo" alt="idata logo">
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <img src="img/logos/albinsson.png" class="img-responsive img-centered clientLogo" alt="albinsson and sjöberg logo">
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <img src="img/logos/forsakring.png" class="img-responsive img-centered clientLogo" alt="försakringskassa logo">
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <img src="img/logos/xylem.png" class="img-responsive img-centered clientLogo" alt="xylem logo">
-            </div>
-        </div>
-        <div class="row" style="margin-top: 75px;">
-            <div class="col-md-3 col-sm-12">
-                <img src="img/logos/enfo.png" class="img-responsive img-centered clientLogo" alt="zipper enfo logo">
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <img src="img/logos/ac.png" class="img-responsive img-centered clientLogo" alt="åc karlskrona logo">
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <img src="img/logos/qlik.png" class="img-responsive img-centered clientLogo" alt="qlikview logo">
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <img src="img/logos/sandvik.png" class="img-responsive img-centered clientLogo" alt="sandvik logo">
-            </div>
-        </div>
-        <div class="row" style="margin-top: 75px;">
+        <div class="row">
             <div class="col-md-6 col-sm-12">
                 <img src="img/logos/asfalt.png" class="img-responsive img-centered clientLogo" alt="asfaltbolaget logo">
             </div>

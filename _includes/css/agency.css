@@ -16,6 +16,14 @@ body {
     color: #{{ site.color.secondary-dark }};
 }
 
+.mainBG {
+    background-image: url('img/header-bg.jpg');
+}
+
+.secondBG {
+    background-image: url('img/jobs-bg.jpg');
+}
+
 .text-muted {
     color: #777;
 }
