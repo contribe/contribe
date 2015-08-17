@@ -17,12 +17,12 @@
                     	<div class="col-md-6 col-md-offset-3 col-sm-12 blog-data">
 		                    <div>
 		                        <a href="#portfolioModal{{ post.modal-id }}" data-toggle="modal" data-dismiss="modal"><h4>{{ post.title }}</h4></a>
-		                        <p class="text-muted"><i class="fa fa-calendar-o fa-fw"></i>&nbsp; {{ post.date | date: "%d-%m-%Y" }}</p>
+		                        <p class="text-muted"><i class="fa fa-calendar-o fa-fw"></i>&nbsp; {{ post.date | date: "%Y-%m-%d" }}</p>
 		                    </div>
 	                	</div>
 	            		{% endfor %}
                         <div class="col-md-6 col-md-offset-3 col-sm-12 blog-data">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Stänga</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Stäng</button>
                         </div>
                     </div>
                 </div>
