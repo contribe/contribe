@@ -1,7 +1,7 @@
 Contribe.se
 ====================
 
-Based on Agency Jekyll theme which is based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
+Based on Agency Jekyll theme
 
 # How to use
 
