@@ -1,7 +1,7 @@
 Contribe.se
 ====================
 
-Based on Agency Jekyll theme
+Built with Jekyll and based on Agency Jekyll theme
 
 # How to use
 
@@ -20,6 +20,16 @@ Images are in '/img/logos/'
 Team members and info are in '_config.yml'
 
 Images are in '/img/team/'
+
+###Blogg
+
+Blog posts are in '/_posts'
+
+Images are in '/img/blog/'
+
+###Jobb
+
+Job posts are in '/_posts'
 
 =========
 
