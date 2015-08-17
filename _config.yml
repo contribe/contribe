@@ -1,4 +1,5 @@
-url: https://www.contribe.se
+url: https://localhost:4000
+baseurl: /contribe/
 
 # Site settings
 title: Contribe

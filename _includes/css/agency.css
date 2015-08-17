@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-html, body. div{
+html, body. div {
     margin: 0 !important;
     padding: 0 !important;
     width: 100%;
@@ -245,7 +245,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.color.secondary }};
 }
 
-.navbar-default.navbar-shrink .navbar-brand img {
+.navbar-default.navbar-shrink .navbar-brand img.logoHeader {
     font-size: 1.5em;
     max-height: 100%;
     max-width: 100%;
@@ -254,7 +254,7 @@ fieldset[disabled] .btn-xl.active {
     transition: all .3s;
 }
 
-@media(min-width:1200px) {
+@media only screen and (min-device-width:1200px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -298,7 +298,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-@media (max-width: 991px) {
+@media only screen and (max-device-width: 991px) {
     .navbar-header {
         float: none;
     }
@@ -370,7 +370,7 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
-@media(min-width:768px) {
+@media only screen and (min-device-width:768px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -413,7 +413,7 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-@media(min-width:768px) {
+@media only screen and (min-device-width:768px) {
     section {
         padding: 150px 0;
     }
