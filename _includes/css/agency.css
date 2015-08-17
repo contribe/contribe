@@ -246,9 +246,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default.navbar-shrink .navbar-brand img.logoHeader {
-    font-size: 1.5em;
-    max-height: 50%;
-    max-width: 50%;
+    font-size: 1.2em;
+    max-height: 80%;
+    max-width: 80%;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
