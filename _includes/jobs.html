@@ -15,7 +15,7 @@
         </div>
         <div class="col-md-10 col-md-offset-1 text-center">
             <h3 class="section-heading">Lediga Tjänster</h3>
-            {% for post in site.categories.jobs limit: 3 %}
+            {% for post in site.categories.jobs %}
             <div class="col-md-4 col-md-offset-4 col-sm-12 blog-data">
                 <div>
                     <a href="#portfolioModal{{ post.modal-id }}" data-toggle="modal"><h4>{{ post.title }}</h4></a>
