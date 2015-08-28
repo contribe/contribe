@@ -1,7 +1,7 @@
 ---
 title: Ny praktikant
 layout: default
-modal-id: 10
+modal-id: 7
 date: 2015-06-18
 category: blog
 

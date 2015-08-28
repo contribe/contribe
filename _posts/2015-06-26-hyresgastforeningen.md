@@ -1,7 +1,7 @@
 ---
 title: Nytt avtal med Hyresgästföreningen
 layout: default
-modal-id: 9
+modal-id: 8
 date: 2015-06-26
 category: blog
 
