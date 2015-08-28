@@ -133,4 +133,4 @@ prose:
       - name: modal-id
         field:
           element: "text"
-          value: "text"
+          value: "enter blog post number here"
