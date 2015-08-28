@@ -11,15 +11,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-sm-12">
-                    <div>
-                        <h2 class="postHeading">{{ post.title }}</h2>
+                    <div class="text-left">
+                        <h2 class="postHeading text-center">{{ post.title }}</h2>
                         <hr class="star-primary">
                         {% if post.category == "portfolio" %}
                         <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                         {% elsif post.category == "blog" %}
                         <p class="text-left"><strong>{{ post.date | date: "%Y-%m-%d" }}</strong></p>
                         {% endif %}
-                        <p class="text-left">{{ post.description }}</p>
+                        {{ post.content }}
                         {% if post.category == "portfolio" %}                            
                         <ul class="list-inline item-details">
                             <li>Klient:
@@ -35,8 +35,8 @@
                             {% endfor %}
                             {% endif %}                            
                         </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Stäng</button>
                     </div>
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Stäng</button>
                 </div>
             </div>
         </div>
