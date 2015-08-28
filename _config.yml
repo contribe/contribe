@@ -125,7 +125,7 @@ prose:
       - name: "date"
         field:
           element: "text"
-          value: "CURRENT_DATE"
+          value: "CURRENT_DATETIME"
       - name: "published"
         field:
           element: "text"
