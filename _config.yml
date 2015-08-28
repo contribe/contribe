@@ -133,4 +133,4 @@ prose:
       - name: "modal-id"
         field:
           element: "text"
-          type: "text"
+          value: "CURRENT_DATETIME"
