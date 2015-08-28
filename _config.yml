@@ -130,7 +130,7 @@ prose:
         field:
           element: "text"
           value: "true"
-      - name: "modal-id"
+      - name: modal-id
         field:
           element: "text"
           value: "CURRENT_DATETIME"
