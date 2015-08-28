@@ -112,23 +112,23 @@ prose:
     _posts:
       - name: "layout"
         field:
-          element: "text"
+          element: "hidden"
           value: "default"
       - name: "category"
         field:
-          element: "text"
+          element: "hidden"
           value: "blog"
       - name: "title"
         field:
-          element: "text"
+          element: "hidden"
           label: "title"
       - name: "date"
         field:
-          element: "text"
+          element: "hidden"
           value: CURRENT_DATETIME
       - name: "published"
         field:
-          element: "text"
+          element: "hidden"
           value: "true"
       - name: modal-id
         field:
