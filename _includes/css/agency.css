@@ -258,7 +258,7 @@ fieldset[disabled] .btn-xl.active {
     font-size: 1.5em!important;
 }
 
-@media(min-width:1200px) {
+@media screen and (min-width:1200px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -302,7 +302,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
     .navbar-header {
         float: none;
     }
@@ -375,7 +375,7 @@ header .intro-text .intro-heading {
     line-height: 30px;
 }
 
-@media(min-width:768px) {
+@media screen and (min-width:768px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -420,7 +420,7 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-@media(min-width:768px) {
+@media screen and (min-width:768px) {
     section {
         padding: 150px 0;
     }
