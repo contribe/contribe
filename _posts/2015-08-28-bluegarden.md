@@ -1,5 +1,10 @@
 ---
 published: false
+title: Bluegarden
+layout: default
+"modal-id": 13
+date: 2015-06-18T00:00:00.000Z
+category: blog
 ---
 
 ## Bluegarden - Ny kund till Contribe
