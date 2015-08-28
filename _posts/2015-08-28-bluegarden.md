@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Bluegarden
 layout: default
 "modal-id": 13
