@@ -1,7 +1,7 @@
 ---
 title: Internet Camp
 layout: default
-modal-id: 11
+modal-id: 10
 date: 2015-06-30
 category: blog
 
