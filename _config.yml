@@ -15,7 +15,7 @@ color:
 people:
 - name: Roger Gordin
   pic: roger
-  position: VD
+  position: VD, Regionchef Skåne
   social:
     - title: linkedin
       url: https://www.linkedin.com/pub/roger-gordin/2/a21/a83
@@ -24,16 +24,16 @@ people:
 
 - name: Marcus Nilsson
   pic: marcus
-  position: Marknadschef - Växjö
+  position: Regionchef Småland
   social:
     - title: linkedin
       url: https://se.linkedin.com/pub/marcus-nilsson/61/70b/561
     - title: envelope-o
       url: mailto:marcus.nilsson@contribe.se
 
-- name: Carin Håkansson
+- name: Carin Håkansson (ändras i mitten av oktober till Johan Strandberg)
   pic: carin
-  position: Konsultchef - Karlskrona
+  position: Regionchef Blekinge
   social:
     - title: linkedin
       url: https://se.linkedin.com/pub/carin-h%C3%A5kansson/9/b35/353
