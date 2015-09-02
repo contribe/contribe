@@ -459,6 +459,11 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+section p.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+}
+
 @media screen and (min-width:768px) {
     section {
         padding: 150px 0;
