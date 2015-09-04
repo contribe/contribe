@@ -9,4 +9,4 @@ title: KONTOR I MALMÖ
 
 Vi har nu även kontor i Malmö på Övägen 8 i Limhamn. Fina lokaler med utsikt över Öresund!
 
-![Cam10_day_2.jpg]({{site.baseurl}}/media/Cam10_day_2.jpg)
+<img src="media/Cam10_day_2.jpg" alt="office in malmö" class="img-responsive img-centered" />
