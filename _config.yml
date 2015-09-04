@@ -1,4 +1,5 @@
-url: https://www.contribe.se
+url: https://localhost:4000
+baseurl: /contribe/
 
 # Site settings
 title: Contribe
@@ -53,37 +54,53 @@ permalink: pretty
 
 # Customer logos
 logos: 
-  - url: kalmar.png
+  - url1: kalmar.png
+    url2: kalmarColor.png
     alt: kalmar logo
-  - url: volvo.png
+  - url1: volvo.png
+    url2: volvoColor.png
     alt: volvo logo
-  - url: playngo.png
+  - url1: playngo.png
+    url2: playngoColor.png
     alt: play n go logo
-  - url: hm.png
+  - url1: hm.png
+    url2: hmColor.png
     alt: h and m logo
-  - url: telenor.png
+  - url1: telenor.png
+    url2: telenorColor.png
     alt: telenor logo
-  - url: fortnox.png
+  - url1: fortnox.png
+    url2: fortnoxColor.png
     alt: fortnox logo
-  - url: electra.png
+  - url1: electra.png
+    url2: electraColor.png
     alt: electra logo
-  - url: ericsson.png
+  - url1: ericsson.png
+    url2: ericssonColor.png
     alt: ericsson logo
-  - url: idata.png
+  - url1: idata.png
+    url2: idataColor.png
     alt: idata logo
-  - url: albinsson.png
+  - url1: albinsson.png
+    url2: albinssonColor.png
     alt: albinsson and sjöberg logo
-  - url: forsakring.png
+  - url1: forsakring.png
+    url2: forsakringColor.png
     alt: försakringskassa logo
-  - url: xylem.png
+  - url1: xylem.png
+    url2: xylemColor.png
     alt: xylem logo
-  - url: enfo.png
+  - url1: enfo.png
+    url2: enfoColor.png
     alt: zipper enfo logo
-  - url: ac.png
+  - url1: ac.png
+    url2: acColor.png
     alt: Åc Karlskrona logo
-  - url: qlik.png
+  - url1: qlik.png
+    url2: qlikColor.png
     alt: qlikview logo
-  - url: sandvik.png
+  - url1: sandvik.png
+    url2: sandvikColor.png
     alt: sandvik logo
 
 #Prose config

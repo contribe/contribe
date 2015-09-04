@@ -339,6 +339,19 @@ body {
     .clientLogo {
         padding: 20px;
     }
+
+    .logoSwap img:last-child {
+        display: none
+    }
+    
+    .logoSwap:hover img:first-child {
+        display: none
+    }
+    
+    .logoSwap:hover img:last-child {
+        display: block
+    }
+
 }
 
 @media screen and (max-width: 991px) {
