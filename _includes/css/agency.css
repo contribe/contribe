@@ -341,15 +341,15 @@ body {
     }
 
     .logoSwap img:last-child {
-        display: none
+        display: none;
     }
     
     .logoSwap:hover img:first-child {
-        display: none
+        display: none;
     }
     
     .logoSwap:hover img:last-child {
-        display: block
+        display: block;
     }
 
 }
