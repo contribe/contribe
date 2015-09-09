@@ -19,6 +19,7 @@ Contribe har utvecklat en positioneringstjänst för enkel överblick och kontro
 Tjänsten har Google Maps i bakgrunden vilket ger en bra geografisk överblick. Det är lätt att gå upp och ner i skala och man kan filtera kartbilden så att man t.ex. bara ser de arbeten som är färdiga att fakturera. Systemet gör att man får en mycket bättre överblick över var man har maskiner och personal. Tiden mellan påbörjat arbete och fakturering kan därigenom oftast minskas dramatiskt.
 
 Nyttan:
+
 <ul class="text-left">
 	<li>Maximerar informationsspridningen inom arbetslaget och mellan företaget och kunden.</li>
 	<li>Ger en tydlig översiktsbild och ger alla medarbetare aktuell info om pågående och avslutade arbeten.</li>
