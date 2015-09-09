@@ -1,6 +1,6 @@
 ---
 title: Lagagatan
-subtitle: Contribe Outsourcing
+subtitle: Contribe IT Solutionss
 layout: default
 modal-id: 2
 date: 2015-07-08
