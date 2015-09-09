@@ -5,7 +5,7 @@ layout: default
 modal-id: 3
 date: 2015-07-08
 img: rf.jpg 
-thumbnail: rf-thumb.jpg
+thumbnail: rf-thumb.png
 alt: riksidröttsförbundet logo
 client: Riksidröttsförbundet
 category: portfolio
