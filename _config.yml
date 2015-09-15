@@ -31,14 +31,14 @@ people:
     - title: envelope-o
       url: mailto:marcus.nilsson@contribe.se
 
-- name: Carin Håkansson
-  pic: carin
-  position: Regionchef Blekinge
+- name: Mr. X börjar 15 oktober
+  pic: placeholder
+  position: Tf Regionchef Blekinge Roger Gordin
   social:
     - title: linkedin
-      url: https://se.linkedin.com/pub/carin-h%C3%A5kansson/9/b35/353
+      url: https://www.linkedin.com/pub/roger-gordin/2/a21/a83
     - title: envelope-o
-      url: mailto:carin.hakansson@contribe.se
+      url: mailto:roger.gordin@contribe.se
 
 # Social networks
 social:
