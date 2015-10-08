@@ -7,6 +7,4 @@ published: true
 title: Utökat åtagande på Xylem Water solutions
 ---
 
-## A New Post
-
 Vi kan med glädje kommunicera att vi har fått ett utökat åtagande på Xylem Water Solutions i Emmaboda som innebär att vi har fått möjligheten jobba tillsammans med Xylems egna personal runt ett antal spännande IT-projekt som kommer att skapa verksamhetsnytta.
