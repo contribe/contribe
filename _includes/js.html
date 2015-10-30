@@ -11,3 +11,19 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+
+<!-- Workbuster Script -->
+<script type="text/javascript" src="http://ext.workbuster.se/wb.php?site=TalentTrek&subsite=contribe&disableoffset=1"></script>
+<script type="text/javascript">
+ (function($) {
+ var firstLoad = true;
+    //to avoid scroll on reload
+
+     $('#workbuster_iframe').on('load', function() {
+       if (!firstLoad) {
+         document.body.scrollTop=$(this).offset().top;
+       }
+       firstLoad = false;
+     });
+    }(jQuery));
+ </script>
