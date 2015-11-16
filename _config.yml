@@ -86,9 +86,9 @@ logos:
   - url1: forsakring.png
     url2: forsakringColor.png
     alt: försakringskassa logo
-  - url1: xylem.png
-    url2: xylemColor.png
-    alt: xylem logo
+  - url1: maingate.png
+    url2: maingateColor.png
+    alt: maingate logo
   - url1: enfo.png
     url2: enfoColor.png
     alt: zipper enfo logo
