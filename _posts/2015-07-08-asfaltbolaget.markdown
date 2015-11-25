@@ -1,6 +1,7 @@
 ---
-title: Lagagatan
-subtitle: Contribe IT Solutionss
+title: CONTRIBE IT-SOLUTIONS
+subtitle: Mjukvarudesign/programmering
+post-title: Multiverktyg med många vinster
 layout: default
 modal-id: 2
 date: 2015-07-08

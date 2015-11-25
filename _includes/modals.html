@@ -12,7 +12,11 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-sm-12">
                     <div class="text-left">
+                        {% if post.category == "portfolio" %}
+                        <h2 class="postHeading text-center">{{ post.post-title }}</h2>
+                        {% elsif post.category == "blog" %}
                         <h2 class="postHeading text-center">{{ post.title }}</h2>
+                        {% endif %}
                         <hr class="star-primary">
                         {% if post.category == "portfolio" %}
                         <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
@@ -22,10 +26,10 @@
                         {{ post.content }}
                         {% if post.category == "portfolio" %}                            
                         <ul class="list-inline item-details text-center">
-                            <li>Klient:
+                            <li>Kund:
                                 <strong>{{ post.client }}</strong>
                             </li>
-                            <li>Tjänst:
+                            <li>Tjänster:
                             {% for service in post.service %}
                                 <strong>{{ service }} </strong>
                             </li>

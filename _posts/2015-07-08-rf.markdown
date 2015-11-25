@@ -1,6 +1,7 @@
 ---
-title: Helhetsåtagande Riksidrottsförbundet  
-subtitle: Contribe Outsourcing
+title: CONTRIBE OUTSOURCING
+subtitle: Helhetsåtagande
+post-title: Klara … färdiga … kvalitetskontroll!
 layout: default
 modal-id: 3
 date: 2015-07-08
@@ -9,7 +10,9 @@ thumbnail: rf-thumb.png
 alt: riksidröttsförbundet logo
 client: Riksidröttsförbundet
 category: portfolio
-service: Test Testledning
+service: 
+- test och
+- testledning
 
 ---
 

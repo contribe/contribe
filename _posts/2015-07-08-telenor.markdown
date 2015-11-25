@@ -1,6 +1,7 @@
 ---
-title: Konsultuppdrag - Telenor
-subtitle: Contribe Consulting
+title: CONTRIBE CONSULTING
+subtitle: Konsultuppdrag
+post-title: Modernare webb. Överallt och varje gång.
 layout: default
 modal-id: 1
 date: 2015-07-08
@@ -11,11 +12,12 @@ project-date: Pågående
 client: Telenor
 category: portfolio
 service: 
-- Webbutveckling
-- Systemutveckling
-- Test
+- webbutveckling,
+- systemutveckling och
+- test
 
 ---
+
 
 För telenor.se och bredbandsbolaget.se jobbar vi bl.a. med webbutveckling, systemutveckling och test. Vi gör jobb inom både frontend och backend och vi får bidra med en helhetssyn över utveckling och förvaltning av stora webbsystem. Under projekten har övergång genomförts till de senaste teknikerna HTML5/CSS3 för att möjliggöra responsiv webb och mobilanpassning och då handlar det om avancerad frontendutveckling med mycket javascript (jQuery-plugins) och Ajax.
 
