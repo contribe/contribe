@@ -76,7 +76,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #e5e5e5;
 }
 
 .bg-darkest-gray {
@@ -297,6 +297,11 @@ body {
         display: none;
 }
 
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
 @media screen and (min-width:1200px) {
     .navbar-default {
         padding: 25px 0;
@@ -356,9 +361,13 @@ body {
         display: block;
     }
 
+    nav .container {
+        width: 100%;
+    }
+
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1024px) {
     .navbar-header {
         float: none;
     }
@@ -387,7 +396,7 @@ body {
         float: none;
         margin: 15px 0;
     }
-    /* since 3.1.0 */
+
     .navbar-collapse.collapse.in { 
         display: block!important;
     }
