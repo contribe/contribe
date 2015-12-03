@@ -32,17 +32,14 @@
         </div>
         <div class="row">
         {% for logo in site.logos %}
-            <div class="col-md-3 col-sm-12 logoSwap">
-                <!--<div class="clientLogo img-centered img-responsive" style="background: url(img/logos/{{ logo.url1 }}) no-repeat;"></div>-->
+            <div class="col-md-3 col-sm-12">
                 <img src="img/logos/{{ logo.url1 }}" class="img-responsive img-centered clientLogo" alt="{{ logo.alt }}">
-                <img src="img/logos/{{ logo.url2 }}" class="img-responsive img-centered clientLogo color" alt="{{ logo.alt }}">
             </div>
         {% endfor %}
         </div>
         <div class="row">
-            <div class="col-md-12 col-sm-12 logoSwap">
+            <div class="col-md-12 col-sm-12">
                 <img src="img/logos/asfalt.png" class="img-responsive img-centered clientLogo" alt="asfaltbolaget logo">
-                <img src="img/logos/asfaltColor.png" class="img-responsive img-centered clientLogo color" alt="asfaltbolaget logo">
             </div>
         </div>
     </div>
