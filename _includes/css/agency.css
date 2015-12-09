@@ -24,6 +24,10 @@ body {
     background-image: url('img/header-bg2.jpg');
 }
 
+.thirdBG {
+    background-image: url('img/contribe_web.jpg');
+}
+
 .text-muted {
     color: #777;
 }
@@ -438,6 +442,10 @@ header .intro-text .intro-heading {
     font-size: 30px;
     font-weight: 700;
     line-height: 30px;
+}
+
+.dark {
+    color: #000000;
 }
 
 @media screen and (min-width:768px) {
