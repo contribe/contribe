@@ -1,0 +1,30 @@
+#contribute {
+
+  img.internet-camp {
+    width: 100%;
+    max-width: 710px;
+    margin: 20px auto;
+    display: block;
+    border: solid 20px #fff;
+    transform: rotate(-15deg);
+
+    position: relative;
+    z-index: 100;
+  }
+
+  @media (max-width: 600px) {
+    img.internet-camp {
+      margin-bottom: 0px;
+    }
+    .standard-padding {
+      padding: 100px 40px 40px 40px ;
+    }
+  }
+
+
+  @media (min-width: 600px) and (max-width: 1000px) {
+    .standard-padding {
+      padding: 20px;
+    }
+  }
+}

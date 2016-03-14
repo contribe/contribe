@@ -1,0 +1,58 @@
+#values {
+
+	.value-words {
+    margin-bottom: 40px;
+    padding: 0 100px;
+
+    h3 {
+      margin-bottom: 40px;
+    }
+
+    h4 {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin: 0 auto;
+      color: #FFF;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+
+    &.joy {
+      h4 {
+        background: url('../img/contribe_gladje.jpg') no-repeat;
+        background-size: 350%;
+        background-position: -178px 0;
+        padding: 106px 0 0 77px
+      }
+    }
+    &.simplicity {
+      h4 {
+        background: url('../img/contribe_enkelhet2.jpg') no-repeat;
+        background-size: 350%;
+        background-position: -338px 0;
+        padding: 108px 0 0 15px
+      }
+    }
+    &.passion {
+      h4 {
+        background: url('../img/contribe_tattoo.jpg') no-repeat;
+        background-size: 220%;
+        background-position: -137px 0;
+        padding: 135px 0 0 43px
+      }
+    }
+    &.courage {
+      h4 {
+        background: url('../img/contribe_mod.jpg') no-repeat;
+        background-size: 350%;
+        background-position: -437px 0;
+        padding: 42px 0 0 117px
+      }
+    }
+
+	}
+
+
+}

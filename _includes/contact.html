@@ -6,59 +6,29 @@
                 <h2 class="section-heading">Kontakta Oss</h2>
                 <h3 class="text-muted">Här hittar du vår stam idag</h3>
             </div>
-            <div class="col-md-3 col-sm-6 section-heading">
-                <h3 class="section-heading">Karlskrona</h3>
-                Kontaktperson: Johan Strandberg<br>
-                Mobil: 0709-35 93 94<br>
-                <a href="mailto:johan.strandberg@contribe.se">E-post</a>
+            {% for office in site.offices %}
+            <div class="col-md-3 col-sm-6 section-heading team-member">
+                <h3 class="section-heading">{{office.name}}</h3>
+                <img src="img/team/{{ office.pic }}.jpg" class="img-responsive img-circle" alt="{{ office.contact_person }}">
+                <strong>Kontaktperson: </strong><br>
+                {{ office.contact_person }}<br>
+                Mobil: {{office.mobile}}<br>
+                <a href="{{office.email_url}}">E-post</a>
                 <br>
                 <br>
                 <address>
-                Besöksadress: Borgmästaregatan 18<br>
-                371 34 Karlskrona
+                Besöksadress: {{office.street}}<br>
+                {{office.zip_city}}
                 </address>
-            </div>
-            <div class="col-md-3 col-sm-6 section-heading">
-                <h3 class="section-heading">Göteborg</h3>
-                Kontaktperson: Mattias Fredriksson<br>
-                Mobil: 0708 – 186 186<br>
-                <a href="mailto:mattias.fredriksson@contribe.se">E-post</a>
-                <br>
-                <br>
+                {% if office.post_street == "Box 2317" %}
                 <address>
-                Besöksadress: Södra Larmgatan 2<br>
-                41116 Göteborg
-                <br>
-                <br>
-                Postadress: Box 2317<br>
-                403 15 Göteborg
+                Postadress: {{office.post_street}}<br>
+                {{office.post_city}}
                 </address>
+                {% else %}
+                {% endif %}
             </div>
-            <div class="col-md-3 col-sm-6 section-heading">
-                <h3 class="section-heading">Växjö</h3>
-                Kontaktperson: Marcus Nilsson<br>
-                Mobil: 0705 – 270 100<br>
-                <a href="mailto:marcus.nilsson@contribe.se">E-post</a>
-                <br>
-                <br>
-                <address>
-                Besöksadress: Reveljgränd 5<br>
-                352 36 Växjö
-                </address>
-            </div>
-            <div class="col-md-3 col-sm-6 section-heading">
-                <h3 class="section-heading">Malmö</h3>
-                Kontaktperson: Roger Gordin<br>
-                Mobil: 0768 – 654 650<br>
-                <a href="mailto:roger.gordin@contribe.se">E-post</a>
-                <br>
-                <br>
-                <address>
-                Besöksadress: Övägen 8<br>
-                216 43 Limhamn, Malmö
-                </address>
-            </div>
-        </div>
+            {% endfor %}
         <div class="row text-center">
             <div class="col-lg-12">
                 <ul class="list-inline social-buttons-contact">

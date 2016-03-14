@@ -1,9 +1,14 @@
 url: https://www.contribe.se
 #url: https://localhost:4000
+#baseurl: /contribe_temp
+
+#sass settings
+sass:
+  sass_dir: _sass
 
 # Site settings
 title: Contribe
-email: brian.ranney@contribe.se
+email: bjorn.andersson@contribe.se
 description: "Contribe - Vi förenklar framtiden"
 
 # Color settings (hex-codes without the leading hash-tag)
@@ -12,34 +17,44 @@ color:
   secondary: c39
   secondary-dark: 333
 
-# Team names, titles and social links
-people:
-- name: Roger Gordin
-  pic: roger
-  position: VD, Regionchef Skåne
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/pub/roger-gordin/2/a21/a83
-    - title: envelope-o
-      url: mailto:roger.gordin@contribe.se
-
-- name: Marcus Nilsson
-  pic: marcus
-  position: Regionchef Småland
-  social:
-    - title: linkedin
-      url: https://se.linkedin.com/pub/marcus-nilsson/61/70b/561
-    - title: envelope-o
-      url: mailto:marcus.nilsson@contribe.se
-
-- name: Johan Strandberg
-  pic: johan
-  position: Regionchef Blekinge
-  social:
-    - title: linkedin
-      url: https://se.linkedin.com/pub/johan-strandberg/20/970/6a1
-    - title: envelope-o
-      url: mailto:johan.strandberg@contribe.se
+# all contribe offices
+offices:
+  - name: Karlskrona
+    street: Borgmästaregatan 18
+    zip_city: 371 34 Karlskrona
+    post_street:
+    post_city:
+    contact_person: Johan Strandberg
+    pic: johan
+    mobile: 0709-35 93 94
+    email_url: mailto:johan.strandberg@contribe.se
+  - name: Göteborg
+    street: Södra Larmgatan 2
+    zip_city: 41116 Göteborg
+    post_street: Box 2317
+    post_city: 40315 Göteborg
+    contact_person: Mattias Fredriksson
+    pic: mattias
+    mobile: 0708-18 61 86
+    email_url: mailto:mattias.fredriksson@contribe.se
+  - name: Växjö
+    street: Reveljgränd 5
+    zip_city: 352 36 Växjö
+    post_street:
+    post_city:
+    contact_person: Marcus Nilsson
+    pic: marcus
+    mobile: 0705-27 01 00
+    email_url: mailto:marcus.nilsson@contribe.se
+  - name: Malmö
+    street: Övägen 8
+    zip_city: 216 43 Limhamn Malmö
+    post_street:
+    post_city:
+    contact_person: Roger Gordin
+    pic: roger
+    mobile: 0768-65 46 50
+    email_url: mailto:roger.gordin@contribe.se
 
 # Social networks
 social:
@@ -53,10 +68,10 @@ markdown: kramdown
 permalink: pretty
 
 # Customer logos
-logos: 
-  - url1: kalmar.png
-    url2: kalmarColor.png
-    alt: kalmar logo
+logos-preview:
+  - url1: cargotec.png
+    url2: cargotecColor.png
+    alt: cargotec logo
   - url1: volvo.png
     url2: volvoColor.png
     alt: volvo logo
@@ -78,6 +93,8 @@ logos:
   - url1: ericsson.png
     url2: ericssonColor.png
     alt: ericsson logo
+
+logos-full:
   - url1: idata.png
     url2: idataColor.png
     alt: idata logo
@@ -123,7 +140,7 @@ prose:
     - feed.xml
     - index.html
     - LICENSE
-    - README.md 
+    - README.md
     - style.css
   metadata:
     _posts:
