@@ -7,8 +7,8 @@ modal-id: 3
 date: 2015-07-08
 img: rf.jpg 
 thumbnail: rf-thumb.png
-alt: riksidröttsförbundet logo
-client: Riksidröttsförbundet
+alt: riksidrottsförbundet logo
+client: Riksidrottsförbundet
 category: portfolio
 service: 
 - test och
