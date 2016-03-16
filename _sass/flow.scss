@@ -12,6 +12,9 @@ section {
   padding-bottom: 100px;
 }
 
+.navbar-fixed-top .navbar-collapse {
+  max-height: 350px;
+}
 
 @media (min-width: 600px) {
   .tableify {

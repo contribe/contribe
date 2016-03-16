@@ -1,6 +1,19 @@
 // HEADINGS
+@font-face {
+    font-family: edo;
+    src: url('../fonts/edo-webfont.eot');
+	src: url('../fonts/edo-webfont.eot?iefix') format('eot'),
+	     url('../fonts/edo-webfont.woff') format('woff'),
+	     url('../fonts/edo-webfont.ttf') format('truetype'),
+	     url('../fonts/edo-webfont.svg#webfont') format('svg');
 
-section h2.section-heading {
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-family: edo;
+    font-weight: 700;
 	padding-top: 5px;
 }
 
@@ -11,4 +24,42 @@ section h2.section-heading {
 
 .dark {
   color: #222 !important;
+}
+
+// COPY FROM AGENCY.CSS
+.text-muted {
+    color: #777;
+}
+
+.text-primary {
+    color: $primary;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    text-decoration: none;
+}
+
+a {
+    color: $primary;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: $secondary;
 }
