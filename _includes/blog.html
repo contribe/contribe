@@ -5,11 +5,20 @@
             <h4 class="offer-heading offer-heading-blog">NYHETER</h4>
         </div>
         <div class="col-lg-8 col-md-8 col-sm-8 blog-data divider-box">
-            {% for post in site.categories.blog %}
-            <div>
-                <a href="#portfolioModal{{ post.modal-id }}" data-toggle="modal"><p><strong>{{ post.date | date: "%Y-%m-%d" }}</strong> | {{ post.title }}</p></a>
+            <div class="posts">
+                {% for post in site.categories.blog %}
+                <div class="blog-item">
+                    <a href="#portfolioModal{{ post.modal-id }}" data-toggle="modal">
+                        <p><strong>{{ post.date | date: "%Y-%m-%d" }}</strong> | {{ post.title }}</p>
+                    </a>
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
+
+            <div class="controllers">
+                <a href="javascript:void(0);" class="newer">&#171; nyare</a>
+                <a href="javascript:void(0);" class="older">äldre &#187;</a>
+            </div>
         </div>
     </div>
 </section>
