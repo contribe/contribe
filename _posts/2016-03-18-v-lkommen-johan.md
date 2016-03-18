@@ -8,4 +8,5 @@ title: Välkommen Johan
 ---
 
 Idag har vi anställt Johan Strandberg som ny konsultchef till kontoret i  Karlskrona.
+
 Varmt Välkommen Johan!
