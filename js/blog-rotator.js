@@ -1,7 +1,7 @@
 (function () {
 	
 	var rotator = {
-		itemsPerPage: 9,
+		itemsPerPage: 8,
 		originalItems: {},
 		currentPage: 0,
 
