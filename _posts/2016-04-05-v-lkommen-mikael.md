@@ -8,3 +8,5 @@ title: Välkommen Mikael
 ---
 
 Idag har vi anställt Mikael Westerlind. Mikael kommer arbeta som regionschef på vårt Göteborgskontor.
+
+Varmt välkommen Mikael!
