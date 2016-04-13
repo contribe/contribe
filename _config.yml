@@ -33,10 +33,10 @@ offices:
     zip_city: 41116 Göteborg
     post_street: Box 2317
     post_city: 40315 Göteborg
-    contact_person: Mattias Fredriksson
-    pic: mattias
-    mobile: 0708-18 61 86
-    email_url: mailto:mattias.fredriksson@contribe.se
+    contact_person: Mikael Westerlind
+    pic: mikael
+    mobile: 0708-46 74 23
+    email_url: mailto:mikael.westerlind@contribe.se
   - name: Växjö
     street: Reveljgränd 5
     zip_city: 352 36 Växjö
@@ -168,3 +168,4 @@ prose:
         field:
           element: "text"
           value: "enter blog post number here"
+
