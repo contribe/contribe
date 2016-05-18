@@ -9,4 +9,4 @@ title: "Vi söker Systemutvecklare i Java & .Net"
 Nu söker vi efter erfarna systemutvecklare, Java & .Net i Göteborg. Även projektledare o Business Analysts är intressanta. Fyll i spontanansökan under JOBB eller ring gärna Mikael Westerlind
 på 0708-46 74 23 om du har några funderingar.
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+
