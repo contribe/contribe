@@ -1,0 +1,106 @@
+header {
+    position: relative;
+    background: url(../img/brannboll/stripes.png) repeat-x;
+
+    img.banner {
+        display: block;
+        width: 1276px;
+        margin: 0 auto 0 auto;
+    }
+    .wrapper {
+        .offset {
+            position: absolute;
+            top: 200px;
+            z-index: 100;
+
+            h1 {
+                color: #FFF;
+                font-weight: 900;
+                background-color: #B9DCA4;
+                padding: 8px 20px;
+            }
+        }
+    }
+}
+
+p {
+    margin-bottom: 50px;
+}
+h4 {
+    text-decoration: underline;
+}
+
+.fb {
+    margin: 0px auto;
+    width: 50px;
+    display: block;
+}
+
+@media (max-width: 1157px) {
+    header {
+        .wrapper {
+            .offset {
+                top: 150px;
+            }
+        }
+    }
+}
+@media (max-width: 943px) {
+    header {
+        .wrapper {
+            .offset {
+                top: 100px;
+            }
+        }
+    }
+}
+@media (max-width: 731px) {
+    header {
+        .wrapper {
+            .offset {
+                top: 50px;
+
+                h1 {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 520px) {
+    header {
+        .wrapper {
+            .offset {
+                top: 0px;
+                margin-left: -15px;
+                h1 {
+                    font-size: 1em;
+                    padding: 4px 12px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 359px) {
+    header {
+        .wrapper {
+            .offset {
+                top: 0px;
+                margin-left: -15px;
+                h1 {
+                    font-size: 0.9em;
+                    padding: 4px 12px;
+                }
+            }
+        }
+    }
+}
+
+
+
+/*
+689550
+85C446
+C0DE9E
+B9DCA4
+*/
