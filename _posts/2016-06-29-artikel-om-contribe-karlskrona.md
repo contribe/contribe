@@ -4,6 +4,6 @@ category: blog
 date: '2016-06-29 08:54 +0200'
 published: true
 modal-id: '160629'
-title: Artikel om Contribe Karlskrona
+title: Artikel ur senaste Nöjes Nytt om Contribe Karlskrona!
 ---
-[Artikel om Contribe Karlskrona](http://www.contribe.se/doc/artikel.pdf)
+[Länk till artikel ur senaste Nöjes Nytt om Contribe Karlskrona!](http://www.contribe.se/doc/artikel.pdf)
