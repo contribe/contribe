@@ -1,35 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-.home, .aside {
-    float: left;
-}
-.home {
-    width: 70%;
-    padding-right: 15px;
-}
-.aside {
-    width: 30%;
-    padding: 0 0 0 15px;
-
-    img {
-        margin-bottom: 20px;
-    }
-    p {
-        font-size: 0.8em;
-    }
-}
-@media (max-width: 760px) {
-
-    .home, .aside {
-        float: none;
-        width: 100%;
-    }
-}
-
-
-
 header {
     position: relative;
     background: url(../img/brannboll/stripes.png) repeat-x;
@@ -55,7 +23,7 @@ header {
     }
 }
 
-article {
+p {
     margin-bottom: 50px;
 }
 h4 {
@@ -66,10 +34,6 @@ h4 {
     margin: 0px auto;
     width: 50px;
     display: block;
-}
-
-.footnote {
-    text-align: center;
 }
 
 @media (max-width: 1157px) {
