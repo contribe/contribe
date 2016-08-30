@@ -12,3 +12,4 @@ Smögen mötte oss med strålande sensommarväder och härliga dagar på västku
 
 ![]({{site.baseurl}}/media/resan1.jpg)
 
+
