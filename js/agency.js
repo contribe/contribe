@@ -36,3 +36,39 @@ $('div.modal').on('show.bs.modal', function() {
 	}
 });
 
+$(function() {
+
+    var currentSection = '';
+    var sections = {};
+
+    setSections();
+    function setSections() {
+        sections = $('section').map(function(s) {
+            return {
+                top: $(this).offset().top,
+                height: $(this).height(),
+                id: $(this).prop('id')
+            }
+        });
+    };
+
+    var latest = Date.now();
+
+    $(window).on('resize', function() {
+        setSections();
+    });
+
+    $(window).on('scroll', function (e) {
+        if(Date.now() - latest < 200) {
+            return;
+        }
+        latest = Date.now();
+
+        sections.each(function() {
+            if (this.id != currentSection && this.top < window.pageYOffset + 10 && this.top + this.height > window.pageYOffset + 10) {
+                currentSection = this.id;
+                console.log(currentSection);
+            }
+        });
+    });
+});
