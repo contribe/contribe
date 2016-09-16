@@ -14,8 +14,6 @@ Först ut att köra igång detta forskningsprojekt är Karlskrona som börjar re
 
 Appen är en integrerad del i Whtson - en social intranätplattform med ett Facebookliknande utseende. Whtson är framtagen av Peter Mattsson som är VD för Whtson, läs gärna mer här: [http://getwhtson.com/](http://getwhtson.com/ "Whtson") Appen som Contribe har tagit fram tillsammans med Peter fungerar på en ipad/platta där man fyller i svaren på hur man känner sig genom att pricka i mer eller mindre glada emojis på en skala 1 till 5. Det går snabbt och man får direkt feedback på hur det har utvecklat sig sedan sist och kan på så vis följa upp med frågor som ”hur kommer det sig att du känner dig gladare nu än vid förra tillfället vi sågs?”. Socialtjänsten som har en tung administration får genom appen möjlighet att spara runt 800 timmar per år bara i Karlskrona genom att digitalisera sitt tidigare pappersarbete genom en enkel app.
 
-![child-636022_1280.jpg]({{site.baseurl}}/media/child-636022_1280.jpg)
-
 
 
 
