@@ -20,6 +20,12 @@ $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
 
+//Resize Instagram images to squares
+$('.instagram-feed figure').css({'min-height': $('.instagram-feed figure').width(), 'max-height': $('.instagram-feed figure').width()});
+$(window).on('resize', function(){
+    $('.instagram-feed figure').css({'min-height': $('.instagram-feed figure').width(), 'max-height': $('.instagram-feed figure').width()});
+});
+
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();

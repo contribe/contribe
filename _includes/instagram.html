@@ -1,0 +1,22 @@
+<section class="instagram-feed">
+  <div class="row no-gutter">
+    {% assign current_index = 0 %}
+    {% instagram accesstokenpath:/absolute/path/to/file/_includes/instagram-access-token.txt %}
+      {% assign current_index = current_index | plus: 1 %}
+      {% if current_index <= 12 %}
+      <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+        <figure>
+          <img src="{{ item.images.standard_resolution.url }}" />
+          <figcaption>
+            <div class="table-wrapper">
+              <div class="inner">
+                {{ item.caption.text }}
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      {% endif %}
+    {% endinstagram %}
+  </div>
+</section>

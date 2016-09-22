@@ -907,3 +907,67 @@ html,
 body {
     height: 100%;
 }
+
+/* Instagram feed */
+.instagram-feed {
+    padding: 0;
+}
+
+.instagram-feed figure {
+    position: relative;
+    margin-top: -1px;
+    overflow: hidden;
+}
+
+.instagram-feed figure img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.instagram-feed figure figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background-color: rgba(51, 151, 185, 0.9);
+    color: white;
+    font-size: 14px;
+    overflow: hidden;
+    text-align: center;
+    -webkit-transition: height .5s ease-in;
+    transition: height .5s ease-in;
+}
+
+.instagram-feed figure figcaption .table-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.instagram-feed figure figcaption .inner {
+    padding: 15px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.instagram-feed figure:hover figcaption {
+    height: 100%;
+}
+
+.row.no-gutter {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutter [class^="col-"],.row.no-gutter [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+@media(max-width:768px) {
+    .instagram-feed figure figcaption {
+        font-size: 10px;
+    }
+    .instagram-feed figure figcaption .inner {
+        padding: 7px;
+    }
+}
