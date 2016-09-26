@@ -1,0 +1,34 @@
+.negative {
+  background-color: #222;
+  color: #ffffff;
+}
+
+.standard-padding {
+  padding: 40px 100px;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.navbar-fixed-top .navbar-collapse {
+  max-height: 350px;
+}
+
+@media (min-width: 600px) {
+  .tableify {
+    display: table;
+
+    .row {
+      display: table-row;
+
+      [class^="col-"]{
+        display: table-cell;
+        float: none;
+        vertical-align: middle;
+        width: 50%;
+      }
+    }
+  }
+}

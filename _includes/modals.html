@@ -1,40 +1,46 @@
- <!-- Portfolio Modals -->
- {% for post in site.posts %}
-    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
+ <!-- Portfolio & Blog Modals -->
+{% for post in site.posts %}
+<div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p class="text-left">{{ post.description }}</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-sm-12">
+                    <div class="text-left">
+                        {% if post.category == "portfolio" %}
+                        <h2 class="postHeading text-center">{{ post.post-title }}</h2>
+                        {% elsif post.category == "blog" %}
+                        <h2 class="postHeading text-center">{{ post.title }}</h2>
+                        {% endif %}
+                        <hr class="star-primary">
+                        {% if post.category == "portfolio" %}
+                        <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                        {% elsif post.category == "blog" %}
+                        <p class="text-left"><strong>{{ post.date | date: "%Y-%m-%d" }}</strong></p>
+                        {% endif %}
+                        {{ post.content }}
+                        {% if post.category == "portfolio" %}                            
+                        <ul class="list-inline item-details text-center">
+                            <li>Kund:
+                                <strong>{{ post.client }}</strong>
+                            </li>
+                            <li>Tjänster:
+                            {% for service in post.service %}
+                                <strong>{{ service }} </strong>
+                            </li>
+                            {% endfor %}
+                            {% endif %}                            
+                        </ul>
                     </div>
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Stäng</button>
                 </div>
             </div>
         </div>
     </div>
+</div>
 {% endfor %}

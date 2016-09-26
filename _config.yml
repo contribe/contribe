@@ -1,9 +1,14 @@
-url: https://localhost:4000
-baseurl: /contribe/
+url: https://www.contribe.se
+#url: https://localhost:4000
+#baseurl: /contribe_temp
+
+#sass settings
+sass:
+  sass_dir: _sass
 
 # Site settings
 title: Contribe
-email: brian.ranney@contribe.se
+email: bjorn.andersson@contribe.se
 description: "Contribe - Vi förenklar framtiden"
 
 # Color settings (hex-codes without the leading hash-tag)
@@ -12,51 +17,155 @@ color:
   secondary: c39
   secondary-dark: 333
 
-# Team names, titles and social links
-people:
-- name: Roger Gordin
-  pic: roger
-  position: VD
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+# all contribe offices
+offices:
+  - name: Karlskrona
+    street: Borgmästaregatan 18
+    zip_city: 371 34 Karlskrona
+    post_street:
+    post_city:
+    contact_person: Johan Strandberg
+    pic: johan
+    mobile: 0709-35 93 94
+    email_url: mailto:johan.strandberg@contribe.se
+  - name: Göteborg
+    street: Södra Larmgatan 2
+    zip_city: 41116 Göteborg
+    post_street: Box 2317
+    post_city: 40315 Göteborg
+    contact_person: Mikael Westerlind
+    pic: mikael
+    mobile: 0708-46 74 23
+    email_url: mailto:mikael.westerlind@contribe.se
+  - name: Växjö
+    street: Reveljgränd 5
+    zip_city: 352 36 Växjö
+    post_street:
+    post_city:
+    contact_person: Marcus Nilsson
+    pic: marcus
+    mobile: 0705-27 01 00
+    email_url: mailto:marcus.nilsson@contribe.se
+  - name: Malmö
+    street: Övägen 8
+    zip_city: 216 43 Limhamn Malmö
+    post_street:
+    post_city:
+    contact_person: Therese Brahed
+    pic: therese
+    mobile: 0733-50 00 55
+    email_url: mailto:therese.brahed@contribe.se
 
-- name: Marcus Nilsson
-  pic: marcus
-  position: Konsultchef
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Carin Håkansson
-  pic: carin
-  position: Konsultchef
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks
 social:
   - title: facebook
     url: https://www.facebook.com/contribe
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - title: linkedin
+    url: https://www.linkedin.com/company/contribe-ab
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Customer logos
+logos-preview:
+  - url1: cargotec.png
+    url2: cargotecColor.png
+    alt: cargotec logo
+  - url1: volvo.png
+    url2: volvoColor.png
+    alt: volvo logo
+  - url1: playngo.png
+    url2: playngoColor.png
+    alt: play n go logo
+  - url1: hm.png
+    url2: hmColor.png
+    alt: h and m logo
+  - url1: telenor.png
+    url2: telenorColor.png
+    alt: telenor logo
+  - url1: fortnox.png
+    url2: fortnoxColor.png
+    alt: fortnox logo
+  - url1: electra.png
+    url2: electraColor.png
+    alt: electra logo
+  - url1: ericsson.png
+    url2: ericssonColor.png
+    alt: ericsson logo
+
+logos-full:
+  - url1: idata.png
+    url2: idataColor.png
+    alt: idata logo
+  - url1: albinsson.png
+    url2: albinssonColor.png
+    alt: albinsson and sjöberg logo
+  - url1: forsakring.png
+    url2: forsakringColor.png
+    alt: försakringskassa logo
+  - url1: maingate.png
+    url2: maingateColor.png
+    alt: maingate logo
+  - url1: enfo.png
+    url2: enfoColor.png
+    alt: zipper enfo logo
+  - url1: ac.png
+    url2: acColor.png
+    alt: Åc Karlskrona logo
+  - url1: qlik.png
+    url2: qlikColor.png
+    alt: qlikview logo
+  - url1: sandvik.png
+    url2: sandvikColor.png
+    alt: sandvik logo
+
+#Prose config
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://www.contribe.se'
+  media: 'media'
+  ignore:
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /_plugins
+    - /_site
+    - /css
+    - /img
+    - /js
+    - .gitattributes
+    - .gitignore
+    - CNAME
+    - feed.xml
+    - index.html
+    - LICENSE
+    - README.md
+    - style.css
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "text"
+          value: "default"
+      - name: "category"
+        field:
+          element: "text"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "date"
+        field:
+          element: "text"
+          value: CURRENT_DATETIME
+      - name: "published"
+        field:
+          element: "text"
+          value: "true"
+      - name: modal-id
+        field:
+          element: "text"
+          value: "enter blog post number here"
+

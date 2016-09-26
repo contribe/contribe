@@ -1,29 +1,55 @@
 <!-- Portfolio Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolj</h2>
-                    <h3 class="section-subheading text-muted">​Att förenkla framtiden</h3>
-                </div>
-            </div>
-            <div class="row">
-            {% for post in site.posts %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
-                    </div>
-                </div>
-            {% endfor %}
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Kunduppdrag</h2>
+                <h3 class="section-subheading text-muted">Några exempel på hur vi har förenklat framtiden</h3>
             </div>
         </div>
-    </section>
+        <div class="row">
+        {% for post in site.categories.portfolio %}
+            <div class="col-md-4 col-sm-12 portfolio-item">
+                <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>{{ post.title }}</h4>
+                    <p class="text-muted">{{ post.subtitle }}</p>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+        <div class="row" style="padding-bottom: 30px;">
+            <div class="col-lg-12 text-center">
+                <h3 class="section-heading">Urval av kunder</h3>
+            </div>
+        </div>
+        <div class="row">
+        {% for logo in site.logos-preview %}
+            <div class="col-md-3 col-sm-12">
+                <img src="img/logos/{{ logo.url1 }}" class="img-responsive img-centered clientLogo" alt="{{ logo.alt }}">
+            </div>
+        {% endfor %}
+        <p id="more" class="toggler" onclick="toggler('logo-overflow');">Se fler kunder</p>
+            <div id="logo-overflow" class="hide-me">
+                {% for logo in site.logos-full %}
+                    <div class="col-md-3 col-sm-12">
+                        <img src="img/logos/{{ logo.url1 }}" class="img-responsive img-centered clientLogo" alt="{{ logo.alt }}">
+                    </div>
+                {% endfor %}
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <img src="img/logos/asfalt.png" class="img-responsive img-centered clientLogo" alt="asfaltbolaget logo">
+                    </div>
+                </div>
+                <p class="toggler" onclick="toggler('logo-overflow');">Se färre kunder</p>
+            </div>
+        </div>
+    </div>
+</section>

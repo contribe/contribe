@@ -1,0 +1,19 @@
+#blog {
+	.blog-data {
+		position: relative;
+
+		.controllers {
+			position: absolute;
+			bottom: 5px;
+			margin-left: -40px;
+
+			a {
+				padding: 0 40px;
+
+				&.semi-hide {
+					visibility: hidden;
+				}			
+			}
+		}
+	}
+}

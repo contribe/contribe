@@ -1,6 +1,7 @@
 ---
-title: Konsultuppdrag - Telenor
-subtitle: Webb- och systemutveckling, test
+title: CONTRIBE CONSULTING
+subtitle: Konsultuppdrag
+post-title: Modernare webb. Överallt och varje gång.
 layout: default
 modal-id: 1
 date: 2015-07-08
@@ -9,7 +10,17 @@ thumbnail: telenor-thumb.jpg
 alt: telenor logo
 project-date: Pågående
 client: Telenor
-category: webbutveckling
-description: <p class="text-left">För telenor.se och bredbandsbolaget.se jobbar vi bl.a. med webbutveckling, systemutveckling och test. Vi gör jobb inom både frontend och backend och vi får bidra med en helhetssyn över utveckling och förvaltning av stora webbsystem. Under projekten har övergång genomförts till de senaste teknikerna HTML5/CSS3 för att möjliggöra responsiv webb och mobilanpassning och då handlar det om avancerad frontendutveckling med mycket javascript (jQuery-plugins) och Ajax.</p><p class="text-left">Vi har också varit ansvariga för implementation av statistikverktyget Google Analytics och vi har den primära kontakten med beställare och ansvarig webbanalytiker på Telenor.</p><p class="text-left">Vi har även ingått i en portalövergripande grupp som arbetat för att bidra till en standardiserad och modernare webb för alla webbplatser Telenor utvecklar.</p>
+category: portfolio
+service: 
+- webbutveckling,
+- systemutveckling och
+- test
 
 ---
+
+
+För telenor.se och bredbandsbolaget.se jobbar vi bl.a. med webbutveckling, systemutveckling och test. Vi gör jobb inom både frontend och backend och vi får bidra med en helhetssyn över utveckling och förvaltning av stora webbsystem. Under projekten har övergång genomförts till de senaste teknikerna HTML5/CSS3 för att möjliggöra responsiv webb och mobilanpassning och då handlar det om avancerad frontendutveckling med mycket javascript (jQuery-plugins) och Ajax.
+
+Vi har också varit ansvariga för implementation av statistikverktyget Google Analytics och vi har den primära kontakten med beställare och ansvarig webbanalytiker på Telenor.
+
+Vi har även ingått i en portalövergripande grupp som arbetat för att bidra till en standardiserad och modernare webb för alla webbplatser Telenor utvecklar.

@@ -1,0 +1,19 @@
+---
+title: CONTRIBE OUTSOURCING
+subtitle: Helhetsåtagande
+post-title: Klara, färdiga, kvalitetskontroll!
+layout: default
+modal-id: 3
+date: 2015-07-08
+img: rf.jpg 
+thumbnail: rf-thumb.png
+alt: riksidrottsförbundet logo
+client: Riksidrottsförbundet
+category: portfolio
+service: 
+- test och
+- testledning
+
+---
+
+Vi är mycket glada över samarbetet med Riksidrottsförbundet. Contribe har fått helhetsansvaret för all testning av Riksidrottsförbundets applikation IdrottOnline som hjälper föreningslivet med att förenkla administrationen. På vårt Karlskronakontor jobbar dagligen våra duktiga certifierade testare med att säkerställa att IdrottOnline har rätt kvalitet. Samarbetet flyter på mycket bra och vi står inför en uppväxling med fler resurser och större ansvarsområde.
