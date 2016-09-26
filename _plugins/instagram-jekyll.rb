@@ -18,7 +18,7 @@ require 'instagram'
 class InstagramLoader
 	class << self
 		def photos(accesstokenpath)
-			accesstoken = File.open(accesstokenpath).gets
+			accesstoken = "3222390570.4f8d76b.970c108ac0e84054921d242c297a71a3"
 			client = Instagram.client(:access_token => accesstoken)
 			client.user_recent_media
 		end
