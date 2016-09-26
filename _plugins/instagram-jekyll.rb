@@ -4,7 +4,7 @@ require 'instagram'
 
 #
 # Usage:
-#   
+#
 #	{% instagram accesstokenpath:C:\instagram-access-token.txt %}
 #		<div>
 #			<h3>{{ item.caption.text }}</h3>
@@ -30,12 +30,12 @@ module Jekyll
   class InstagramTag < Liquid::Block
 
     include Liquid::StandardFilters
-    Syntax = /(#{Liquid::QuotedFragment}+)?/ 
+    Syntax = /(#{Liquid::QuotedFragment}+)?/
 
     def initialize(tag_name, markup, tokens)
       @variable_name = 'item'
       @attributes = {}
-      
+
       # Parse parameters
       if markup =~ Syntax
         markup.scan(Liquid::TagAttributes) do |key, value|
@@ -54,12 +54,12 @@ module Jekyll
 
     def render(context)
       context.registers[:instagram] ||= Hash.new(0)
-    
+
 	  collection = InstagramLoader.photos(@accesstoken)
-      
+
       length = collection.length
       result = []
-              
+
       # loop through found photos and render results
       context.stack do
         collection.each_with_index do |item, index|
