@@ -122,28 +122,32 @@ logos-full:
 
 #Prose config
 prose:
-  rooturl: '_posts'
+  rooturl: 'blog'
   siteurl: 'http://www.contribe.se'
   media: 'media'
   ignore:
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /_plugins
-    - /_site
+    - /.git
+    - /arbetsprov-java
+    - /arbetsprov-net
+    - /arbetsprov-webb
+    - /bookstoredata
     - /css
+    - /doc
+    - /fonts
     - /img
     - /js
-    - .gitattributes
-    - .gitignore
+    - /kunskapsprov-test
+    - /portfolio
+    - .nojekyll
     - CNAME
-    - feed.xml
-    - index.html
     - LICENSE
     - README.md
+    - favicon.ico
+    - feed.xml
+    - index.html
     - style.css
   metadata:
-    _posts:
+    blog:
       - name: "layout"
         field:
           element: "text"
@@ -168,4 +172,3 @@ prose:
         field:
           element: "text"
           value: "enter blog post number here"
-
