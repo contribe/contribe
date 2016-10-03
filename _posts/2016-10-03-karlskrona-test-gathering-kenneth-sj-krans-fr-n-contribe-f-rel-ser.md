@@ -9,6 +9,6 @@ title: Karlskrona Test Gathering - Kenneth Sjökrans från Contribe föreläser
 Det närmar sig Karlskrona Test Gathering #9 som går av stapeln redan nu på fredag. Här kan du träffa vår alldeles egna Kenneth Sjökrans som föreläser om "Continuous testing, verification and combination testing of software & hardware". 
 
 [Här kan du läsa mer om Kenneth!](https://se.linkedin.com/in/kenneth-sjökrans-04308614)
+[Här kan du läsa mer om Karlskrona Test Gathering](http://www.karlskronatestgathering.se/index.html)
 
 ![Kenneth Sjökrans]({{site.baseurl}}/media/Kenneth.jpg)
-
