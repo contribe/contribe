@@ -4,7 +4,7 @@ category: blog
 date: '2016-10-04 14:20 +0200'
 published: true
 modal-id: '1004'
-title: Inflyttningsfest - Contribe har drabbats av växtvärk
+title: Inflyttningsfest! - Contribe har drabbats av växtvärk
 ---
 Idag sitter 40 av branschens stjärnor hos oss, nu tar vi nästa steg i nya lokaler på tre av fyra orter. Det har varit trångt ett lite tag, kostymen har suttit lite tight. Efter mycket letande har vi äntligen hittat lokaler som känns Contribe! Kreativ miljö, rejäla ytor, aktivitetsbaserat… 
 
