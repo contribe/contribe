@@ -41,4 +41,13 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+$('div.modal').on('hide.bs.modal', function() {
+    window.location.hash = '';
+})
+
+$(document).ready(function() {
+    if (window.location.hash) {
+        $(window.location.hash).modal();
+    }
+});
 
