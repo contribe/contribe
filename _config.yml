@@ -20,19 +20,19 @@ color:
 # all contribe offices
 offices:
   - name: Karlskrona
-    street: Borgmästaregatan 18
-    zip_city: 371 34 Karlskrona
-    post_street:
-    post_city:
+    street: Campus Gräsvik 4
+    zip_city: 371 75 Karlskrona
+    post_street: Minervavägen 1
+    post_city: 371 41 Karlskrona
     contact_person: Johan Strandberg
     pic: johan
     mobile: 0709-35 93 94
     email_url: mailto:johan.strandberg@contribe.se
   - name: Göteborg
     street: Södra Larmgatan 2
-    zip_city: 41116 Göteborg
+    zip_city: 411 16 Göteborg
     post_street: Box 2317
-    post_city: 40315 Göteborg
+    post_city: 403 15 Göteborg
     contact_person: Mikael Westerlind
     pic: mikael
     mobile: 0708-46 74 23
@@ -47,8 +47,8 @@ offices:
     mobile: 0705-27 01 00
     email_url: mailto:marcus.nilsson@contribe.se
   - name: Malmö
-    street: Övägen 8
-    zip_city: 216 43 Limhamn Malmö
+    street: High Court, Malmöhusvägen 1
+    zip_city: 211 18 Malmö
     post_street:
     post_city:
     contact_person: Therese Brahed

@@ -20,7 +20,7 @@
                 Besöksadress: {{office.street}}<br>
                 {{office.zip_city}}
                 </address>
-                {% if office.post_street == "Box 2317" %}
+                {% if office.name == "Karlskrona" or office.name == "Göteborg" %}
                 <address>
                 Postadress: {{office.post_street}}<br>
                 {{office.post_city}}
