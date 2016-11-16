@@ -21,6 +21,7 @@
                     $('#workbuster_iframe').on('load', function() {
                         if (!firstLoad) {
                          document.body.scrollTop=$(this).offset().top;
+                         $('#workbuster_iframe').css({height: 100%});
                         }
                         firstLoad = false;
                     });
