@@ -8,4 +8,6 @@ title: Välkommen Rikard!
 ---
 Vi välkomnar Rikard som började på kontoret i Malmö i måndags. Rikard har lång och bred erfarenhet som utvecklare och i konsultrollen!
 
-![]({{site.baseurl}}/media/Rikard%20Jansson.jpg)
+![Rikard Jansson liten.jpg]({{site.baseurl}}/media/Rikard Jansson liten.jpg)
+
+
