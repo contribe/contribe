@@ -1,5 +1,5 @@
-<script>
-//google analytics script
+<script type="text/javascript">
+  //google analytics script
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -8,20 +8,21 @@
 	ga('create', 'UA-41364173-1', 'auto');
 	ga('send', 'pageview');
 
-//hide-show full customer logo list
+  //hide-show full customer logo list
 	function toggler(divId) {
 		$("#" + divId).toggle();
 		$("#more").toggle();
 	};
 
-	<!-- Start of Async HubSpot Analytics Code -->
-	  <script type="text/javascript">
-	    (function(d,s,i,r) {
-	      if (d.getElementById(i)){return;}
-	      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
-	      n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/2685895.js';
-	      e.parentNode.insertBefore(n, e);
-	    })(document,"script","hs-analytics",300000);
-	  </script>
-	<!-- End of Async HubSpot Analytics Code -->
 </script>
+
+<!-- Start of Async HubSpot Analytics Code -->
+<script type="text/javascript">
+	(function(d,s,i,r) {
+	  if (d.getElementById(i)){return;}
+	  var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+	  n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/2685895.js';
+	  e.parentNode.insertBefore(n, e);
+	})(document,"script","hs-analytics",300000);
+</script>
+<!-- End of Async HubSpot Analytics Code -->
