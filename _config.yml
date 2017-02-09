@@ -63,6 +63,34 @@ social:
   - title: linkedin
     url: https://www.linkedin.com/company/contribe-ab
 
+# Share news
+shares:
+  - service: Facebook
+    url: http://www.facebook.com/sharer/sharer.php?u=[URL]
+    img1: facebook.png
+    img2: facebook-bw.png
+    alt: Dela på Facebook...
+  - service: Twitter
+    url: http://twitter.com/share?url=[URL]&amp;text=[TITLE]%20-
+    img1: twitter.png
+    img2: twitter-bw.png
+    alt: Dela på Twitter...
+  - service: LinkedIn
+    url: http://www.linkedin.com/shareArticle?mini=true&amp;url=[URL]
+    img1: linkedin.png
+    img2: linkedin-bw.png
+    alt: Dela på LinkedIn...
+  - service: Google+
+    url: https://plus.google.com/share?&hl=en&url=[URL]
+    img1: googleplus.png
+    img2: googleplus-bw.png
+    alt: Dela på Google+...
+  - service: Mail
+    url: mailto:?subject=[TITLE]&body=[URL]
+    img1: email.png
+    img2: email-bw.png
+    alt: Dela via mail...
+
 # Build settings
 markdown: kramdown
 permalink: pretty

@@ -37,6 +37,19 @@
                             {% endif %}                            
                         </ul>
                     </div>
+                    {% if post.category == "blog" %}
+                    <div class="text-right">
+                        URL: {{ site.url }}{{ post.url }}
+                        {% for share in site.shares %}
+                            {% assign tempURL = '#portfolioModal' | append: post.modal-id %}
+                            {% assign tempURL = tempURL | prepend: 'contribe.se/' %}
+                            {% assign tempTITLE = post.title | cgi_escape %}
+                            {% assign tempURL = share.url | replace: '[URL]', tempURL %}
+                            {% assign tempURL = tempURL | replace: '[TITLE]', tempTITLE %}
+                            <a href="{{ tempURL }}" target="_blank" title="{{ share.alt }}"><img src="img/social/{{ share.img1 }}" alt="{{ share.alt }}"></a>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
                     <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Stäng</button>
                 </div>
             </div>
