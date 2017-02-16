@@ -39,7 +39,6 @@
                     </div>
                     {% if post.category == "blog" %}
                     <div class="text-right">
-                        URL: {{ site.url }}{{ post.url }}
                         {% for share in site.shares %}
                             {% assign tempURL = '#portfolioModal' | append: post.modal-id %}
                             {% assign tempURL = tempURL | prepend: 'contribe.se/' %}
