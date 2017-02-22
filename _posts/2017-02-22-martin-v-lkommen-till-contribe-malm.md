@@ -8,5 +8,5 @@ title: 'Martin, välkommen till Contribe Malmö!'
 ---
 Vi välkomnar Martin som ny konsult till teamet i Malmö. Martin kommer senast från en webbyrå där han designat och skapat webbplatser, kampanjsajter, social-media-kampanjer, tävlingar, formulär, årsredovisningar online och en hel del annat.
 
-![20170116_091137.jpg]({{site.baseurl}}/media/20170116_091137.jpg)
+![20170116_091137liten.jpg]({{site.baseurl}}/media/20170116_091137liten.jpg)
 
