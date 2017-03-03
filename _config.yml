@@ -70,55 +70,67 @@ permalink: pretty
 # Customer logos
 logos-preview:
   - url1: cargotec.png
-    url2: cargotecColor.png
     alt: cargotec logo
+    title: Cargotec
   - url1: volvo.png
-    url2: volvoColor.png
     alt: volvo logo
+    title: Volvo
   - url1: playngo.png
-    url2: playngoColor.png
     alt: play n go logo
+    title: PLAYnGO
   - url1: hm.png
-    url2: hmColor.png
     alt: h and m logo
+    title: Hennes & Mauritz
   - url1: telenor.png
-    url2: telenorColor.png
     alt: telenor logo
+    title: Telenor
   - url1: fortnox.png
-    url2: fortnoxColor.png
     alt: fortnox logo
+    title: Fortnox
   - url1: electra.png
-    url2: electraColor.png
     alt: electra logo
+    title: Electra
   - url1: ericsson.png
-    url2: ericssonColor.png
     alt: ericsson logo
+    title: Ericsson
 
 logos-full:
+  - url1: qvantel.png
+    alt: qvantel logo
+    title: Qvantel
+  - url1: jordbruksverket.png
+    alt: jordbruksverket logo
+    title: Jordbruksverket
+  - url1: nevs.png
+    alt: nevs logo
+    title: NEVS
   - url1: idata.png
-    url2: idataColor.png
     alt: idata logo
+    title: Idata
   - url1: albinsson.png
-    url2: albinssonColor.png
     alt: albinsson and sjöberg logo
+    title: Albinsson och Sjöberg Förlag
   - url1: forsakring.png
-    url2: forsakringColor.png
     alt: försakringskassa logo
-  - url1: maingate.png
-    url2: maingateColor.png
-    alt: maingate logo
-  - url1: enfo.png
-    url2: enfoColor.png
-    alt: zipper enfo logo
+    title: Försäkringskassan
+  - url1: hrm.png
+    alt: HRM logo
+    title: HRM Software
+  - url1: benchnode.png
+    alt: Benchnode logo
+    title: BenchNode
   - url1: ac.png
-    url2: acColor.png
-    alt: Åc Karlskrona logo
-  - url1: qlik.png
-    url2: qlikColor.png
-    alt: qlikview logo
+    alt: ÅC Karlskrona logo
+    title: Åkericentralen Karlskrona
+  - url1: gotamedia.png
+    alt: Gota Media logo
+    title: Gota Media
   - url1: sandvik.png
-    url2: sandvikColor.png
     alt: sandvik logo
+    title: Sandvik
+  - url1: xylem.png
+    alt: Xylem logo
+    title: Xylem Water Solutions
 
 #Prose config
 prose:

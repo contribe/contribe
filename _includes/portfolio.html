@@ -33,14 +33,14 @@
         <div class="row">
         {% for logo in site.logos-preview %}
             <div class="col-md-3 col-sm-12">
-                <img src="img/logos/{{ logo.url1 }}" class="img-responsive img-centered clientLogo" alt="{{ logo.alt }}">
+                <img src="img/logos/{{ logo.url1 }}" class="img-responsive img-centered clientLogo" alt="{{ logo.alt }}" title="{{ logo.title }}">
             </div>
         {% endfor %}
         <p id="more" class="toggler" onclick="toggler('logo-overflow');">Se fler kunder</p>
             <div id="logo-overflow" class="hide-me">
                 {% for logo in site.logos-full %}
                     <div class="col-md-3 col-sm-12">
-                        <img src="img/logos/{{ logo.url1 }}" class="img-responsive img-centered clientLogo" alt="{{ logo.alt }}">
+                        <img src="img/logos/{{ logo.url1 }}" class="img-responsive img-centered clientLogo" alt="{{ logo.alt }}" title="{{ logo.title }}">
                     </div>
                 {% endfor %}
                 <div class="row">
