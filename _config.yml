@@ -81,9 +81,9 @@ logos-preview:
   - url1: benchnode.png
     alt: Benchnode logo
     title: BenchNode
-  - url1: telenor.png
-    alt: telenor logo
-    title: Telenor
+  - url1: jordbruksverket.png
+    alt: jordbruksverket logo
+    title: Jordbruksverket
   - url1: fortnox.png
     alt: fortnox logo
     title: Fortnox
@@ -101,9 +101,6 @@ logos-full:
   - url1: qvantel.png
     alt: qvantel logo
     title: Qvantel
-  - url1: jordbruksverket.png
-    alt: jordbruksverket logo
-    title: Jordbruksverket
   - url1: volvo.png
     alt: volvo logo
     title: Volvo
@@ -122,12 +119,12 @@ logos-full:
   - url1: gotamedia.png
     alt: Gota Media logo
     title: Gota Media
-  - url1: hm.png
-    alt: h and m logo
-    title: Hennes & Mauritz
-  - url1: asfalt.png
-    alt: Asfaltbolaget logo
-    title: Asfaltbolaget
+#  - url1: hm.png
+#    alt: h and m logo
+#    title: Hennes & Mauritz
+#  - url1: asfalt.png
+#    alt: Asfaltbolaget logo
+#    title: Asfaltbolaget
 
 #Prose config
 prose:
