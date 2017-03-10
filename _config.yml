@@ -78,9 +78,9 @@ logos-preview:
   - url1: playngo.png
     alt: play n go logo
     title: PLAYnGO
-  - url1: xylem.png
-    alt: Xylem logo
-    title: Xylem Water Solutions
+  - url1: benchnode.png
+    alt: Benchnode logo
+    title: BenchNode
   - url1: telenor.png
     alt: telenor logo
     title: Telenor
@@ -116,9 +116,6 @@ logos-full:
   - url1: hrm.png
     alt: HRM logo
     title: HRM Software
-  - url1: benchnode.png
-    alt: Benchnode logo
-    title: BenchNode
   - url1: bluegarden.png
     alt: Bluegarden logo
     title: Bluegarden
