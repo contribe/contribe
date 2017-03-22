@@ -13,3 +13,10 @@ Idag besökte Cecilia Grefve, regeringens samordnare för den sociala barn- och 
 ![Barnsam.jpg]({{site.baseurl}}/media/Barnsam.jpg)
 På bilden: Sofia Fries och Ida Öhman,(sittande) från Socialförvaltningen i Karlskrona visar hur BarnSam fungerar för Cecilia Grefve, tvåa från vänster och Pia Tham, ämnessakkunnig på regeringskansliet. 
 Text och bild från: Sicaht
+
+För mer info så kan du gå in på Regeringskansliet och läsa vidare: http://www.socialbarnungdom.se/ovrigt/med-appen-barnsam-barns-sammanhang-tar-karlskronas-socialtjanst-uppfoljningen-av-placerade-barn-in-i-framtiden/
+
+Vi berättar gärna mer! 
+
+Kontakt: Roger Gordin
+Tel: 076-8654650
