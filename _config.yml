@@ -78,12 +78,12 @@ logos-preview:
   - url1: playngo.png
     alt: play n go logo
     title: PLAYnGO
+  - url1: verisure.png
+    alt: verisure logo
+    title: Verisure
   - url1: benchnode.png
     alt: Benchnode logo
     title: BenchNode
-  - url1: jordbruksverket.png
-    alt: jordbruksverket logo
-    title: Jordbruksverket
   - url1: fortnox.png
     alt: fortnox logo
     title: Fortnox
@@ -119,6 +119,9 @@ logos-full:
   - url1: gotamedia.png
     alt: Gota Media logo
     title: Gota Media
+#  - url1: jordbruksverket.png
+#    alt: jordbruksverket logo
+#    title: Jordbruksverket
 #  - url1: hm.png
 #    alt: h and m logo
 #    title: Hennes & Mauritz
